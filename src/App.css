@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel&family=Merriweather:wght@300;400&family=Mitr:wght@500&family=Varela+Round&family=Viga&display=swap');
+* {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.nav-styles {
+        /* background-color: rgb(0, 0, 0); */
+        font-size: larger;
+        font-weight: bold;
+}
+.temp {
+        font-size: 12rem;
+}
+.hero-img {
+        width: 100%;    
+}
+.hero-img1 {
+        /* background-image: #000000; */
+        /* -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; */
+}
+.hero-img img {
+        width: 100%;
+}
+.about-us {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgba(255, 255, 255, 0.801);
+        border-radius: 16px;
+        box-shadow:  0px 0px 20px #5e5e5e,
+                     0px 0px 20px #212121;
+        margin-top: 1rem;
+}
+.about-us div {
+        flex: 1;
+        padding: 0.5rem;
+}
+.cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2rem;
+        box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+        height: 100%;
+        width: 100%;
+        border-radius: 4px;
+        transition: all 500ms;
+        overflow: hidden;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+}
+.cards:hover {
+        box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+        transform: translateY(-3px) scale(1.05);
+}
+.photo-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-auto-rows: 580px;
+        padding: 1rem;
+}
+.photo-grid div {
+        border-radius: 3rem;
+}
+h1 {
+        text-align: center;
+}
+.footer {
+        display: flex;
+        background-color: rgb(255, 115, 0);
+        color: rgb(0, 0, 0);
+        justify-content: space-evenly;
+}
+.footer div {
+        padding: 1rem;
+        vertical-align: middle;
+}
+.footer-contact {
+        text-align: start;
+}
+.footer-bottom {
+        display: flex;
+        padding: 3rem;
+        background-color: rgb(255, 115, 0);
+        color: rgb(0, 0, 0);
+        justify-content: space-evenly;
+}
+ul {
+        list-style: none;
+}
+.about-tadoba-page {
+        background: linear-gradient(to right, black, transparent), url('https://static2.tripoto.com/media/filter/tst/img/2052746/TripDocument/1608722083_leopard_in_pench.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.about-tadoba-page 
+div {
+        /* background: white; */
+        color: black;
+}
+.about-tadoba-page-1 {
+        padding:0rem;
+        /* display: flex; */
+        /* background-color: rgb(238, 238, 238); */ border-radius: 16px;
+        /* gap: 0.5rem; */
+        /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+        box-shadow:  0px 0px 20px #bebebe,
+        0px 0px 20px #1f1f1f;
+margin-top: 1rem;
+}
+
+.about-tadoba-page-img1 {
+        width: 100%;
+}
+.about-tadoba-page-1-content {
+        display: grid;
+        /* justify-content: space-between; */
+        gap: 2rem;
+        grid-auto-flow: column;
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: rgb(255, 255, 255);
+}
+#addflex {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+#addflex1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+h4 {
+        background: -webkit-linear-gradient(315deg, #000000 50%, #000000 74%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;   
+}
+.round-img {
+        border-radius: 1rem;
+}
+.round-img-2 {
+        border-radius: 1rem;
+}
+.about-page-background {
+        background: linear-gradient(to right, black, transparent), url('https://static2.tripoto.com/media/filter/tst/img/2052746/TripDocument/1608722083_leopard_in_pench.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 400px;
+}
+.about-page-content{
+        padding: 1rem;
+        background: rgb(255, 255, 255);
+        border-radius: 16px;
+        /* gap: 0.5rem; */
+        /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+        box-shadow:  0px 0px 20px #bebebe,
+                     0px 0px 20px #1f1f1f;
+        margin-top: 1rem;
+}
+.about-page-content1 {
+        display: flex;
+        justify-content: space-between;
+}
+.about-page-content1 div {
+        padding: 1rem;
+        flex: 1;
+}
+.about-page-content1 img {
+        width: 100%;
+}
+.about-us-images-grid {
+        display: grid;
+        gap: 2rem;
+        grid-auto-flow: column;
+        /* justify-content: space-between; */
+}
+.about-us-image-1 {
+        height: 600px;
+        border-radius: 1rem;
+}
+#booking-form { 
+        /* padding-top: 2rem;
+        padding-right: 8rem;
+        padding-left: 8rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+        border-radius: 16px;
+        /* gap: 0.5rem; */
+        /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+        box-shadow:  0px 0px 20px #bebebe,
+                     0px 0px 20px #1f1f1f;
+        margin-top: 1rem;
+}
+#form {
+        background-color: rgb(226, 226, 226);
+        padding: 2rem;
+        min-width: 80%;
+        border-radius: 1rem;
+}
+form {
+        padding: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 0.5rem;
+}
+input {
+        padding: 0.2rem;
+        width: 100%;
+}
+.tempo {
+        padding: 11rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        /* background:  linear-gradient( rgb(0, 0, 0), transparent); */
+        /* background-color: rgb(230, 230, 230); */
+}
+#addgrid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        /* overflow: hidden; */
+}
+#addgrid img {
+        max-width: 20rem;
+        max-height:20rem;
+}
+#addgrid img {
+        border-radius: 1rem;
+}
+h1 {
+        color: #463d3d;
+        /* text-decoration: underline #ff9100 0.5rem; */
+}
+.reviews {
+        background-color: white;
+        /* margin: 0.5rem; */
+        /* border-radius: 1rem; */
+        padding: 0.5rem;
+        border-radius: 16px;
+        /* gap: 0.5rem; */
+        /* background: linear-gradient(145deg, #f0f0f0, #cacaca); */
+        box-shadow:  0px 0px 20px #bebebe,
+                     0px 0px 20px #1f1f1f;
+        margin-top: 1rem;
+}
+.heightchange {
+        width: 80%;
+        box-shadow:  0px 0px 20px #bebebe,
+                     0px 0px 20px #1f1f1f;
+        margin-top: 1rem;
+}
+@media screen and (max-width: 600px) {
+        .card-tall {
+          grid-row: span 2 / auto;
+        }
+        .photo-grid {
+                grid-auto-rows: 250px;
+        }
+       .about-tadoba-page-1-content {
+               grid-auto-flow: row;
+       }
+       .about-us-images-grid {
+               grid-auto-flow: row;
+       }
+       .h11 {
+               font-size: 2rem  ;
+       }
+}
+@media only screen and (max-width: 990px) {
+        .about-us {
+                padding: 0;
+        }
+        #addgrid {
+                flex-direction: column;
+        }
+        .tempo {
+                padding: 0.3rem;
+        }
+        #booking-form { 
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+        }
+        input {
+                padding: 0.2rem;
+                min-width: 95%;
+        }
+        #form {
+                background-color: rgb(228, 228, 228);
+                padding: 0.5rem;
+                min-width: 100%;
+        }
+        .about-us{
+                flex-direction: column;
+                /* padding: 0.1rem; */
+                margin-left: 0rem;
+                margin-right: 0rem;
+                margin-bottom: 0.5rem;
+                margin-top: 0.5rem;
+        }
+        .footer {
+                flex-direction: column;
+
+        }
+        /* .carousesl {
+                width: 20px;
+                
+        } */
+        #hide {
+                display: none;
+        }
+        .about-page-content1 {
+                flex-direction: column;
+        }
+        .about-us-images-grid{
+                grid-auto-flow: row;
+        }
+        #addflex {
+                flex-direction: column;
+        }
+        /* #hide-carousel {
+                display: none;
+        } */
+        .about-tadoba-page-1-content {
+                padding: 1em;
+        }
+}
